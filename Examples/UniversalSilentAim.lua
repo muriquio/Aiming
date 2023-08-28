@@ -25,8 +25,8 @@ local Configuration = {
     Enabled = true,
     Method = "FindPartOnRay",
     FocusMode = false, -- // Stays locked on to that player only. If true then uses the silent aim keybind, if a input type is entered, then that is used
-    ToggleBind = false, -- // true = Toggle, false = Hold (to enable)
-    Keybind = Enum.UserInputType.MouseButton2, -- // You can also have Enum.KeyCode.E, etc.
+    ToggleBind = true, -- // true = Toggle, false = Hold (to enable)
+    Keybind = Enum.KeyCode.T, -- // You can also have Enum.KeyCode.E, etc.
 
     -- // Do not change anything below here - if you are not a normal user
     CurrentlyFocused = nil,
