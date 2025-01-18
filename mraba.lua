@@ -13,10 +13,10 @@ if (not _G.Flags) then
             Sleepers = false,
         },
         HitboxExpander = {
-            Size = 7,
+            Size = 9,
             Enabled = true,
             Transparency = 0.7,
-            Part = "Head",
+            Part = "Torso",
         },
     }
 end
